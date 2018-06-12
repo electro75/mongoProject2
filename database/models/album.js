@@ -3,7 +3,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const Album = new Schema({
+const AlbumSchema = new Schema({
     title: String,
     date: Date,
     copiesSold: Number,
@@ -13,4 +13,4 @@ const Album = new Schema({
 
 });
 
-module.exports =  Album;
+module.exports =  AlbumSchema;
