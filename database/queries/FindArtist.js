@@ -5,5 +5,10 @@ const Artist = require('../models/artist');
  * @param {string} _id - The ID of the record to find.
  * @return {promise} A promise that resolves with the Artist that matches the id
  */
+
+ function findArtist(id) {
+ }
+
 module.exports = (_id) => {
+    findArtist(_id);
 };
